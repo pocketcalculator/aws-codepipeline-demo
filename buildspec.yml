@@ -12,7 +12,7 @@ phases:
       - apt install --no-install-recommends yarn
   pre_build:
     commands:
-      - echo Installing dependencies...
+      - echo Installing dependencies (yarn)...
       - yarn
   build:
     commands:
